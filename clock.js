@@ -21,7 +21,6 @@ var updateHours = function() {
 	hoursHand.style.transform = "rotate(" + hoursDegree + "deg)";
 };
 
-
 // INITIAL CODE TO SET UP CLOCK WITHOUT CURRENT TIME (STARTS AT ZERO):
 
 // var startClock = function() {
@@ -44,7 +43,6 @@ var updateHours = function() {
 
 // startClock();
 
-
 // CLOCK WITH CURRENT TIME:
 
 var checkCurrentTime = function() {
@@ -59,11 +57,3 @@ var checkCurrentTime = function() {
 
 checkCurrentTime();
 setInterval(checkCurrentTime, 1000);
-
-
-
-
-
-
-
-
