@@ -1,14 +1,27 @@
+body {
+	text-align: left;
+}
+
+
 #clock {
+	position: relative;
+}
+
+.clockelement {
+	position: absolute;
 }
 
 #clock img {
 }
 
 #hour {
+	transform: rotate(0deg);
 }
 
 #minute {
+	transform: rotate(0deg);
 }
 
 #second {
+	transform: rotate(0deg);
 }
